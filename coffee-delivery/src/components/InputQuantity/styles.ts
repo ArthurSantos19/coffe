@@ -19,3 +19,11 @@ export const InputContainer = styled.div`
         color: ${({theme}) => theme.colors["brand-purple-dark"]};
     }
 `;
+
+export const InputButton = styled.button`
+    width: 0.8rem;
+    display: flex;
+    color: ${({theme}) => theme.colors["brand-purple"]};
+    background: ${({theme}) => theme.colors["base-button"]};
+    border: none;
+`;
